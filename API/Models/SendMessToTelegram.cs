@@ -9,5 +9,11 @@
             public string Content { get; set; }
         }
 
+        public class SendMessResponse
+        {
+            public int Code { get; set; }
+            public string Message { get; set; }
+        }
+
     }
 }

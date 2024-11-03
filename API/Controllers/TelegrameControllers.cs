@@ -39,9 +39,23 @@ namespace API.Controllers
                 $"https://api.telegram.org/bot{token}/sendMessage", message
             );
 
-            return response.IsSuccessStatusCode
-                ? Ok("Tin nhắn đã được gửi thành công!")
-                : BadRequest("Không thể gửi tin nhắn.");
+
+            if (response.IsSuccessStatusCode)
+            {
+                return Ok(new SendMessResponse
+                {
+                    Code = 200,
+                    Message = "Tin nhắn đã được gửi thành công!"
+                });
+            }
+            else
+            {
+                return BadRequest(new SendMessResponse
+                {
+                    Code = 400,
+                    Message = "Không thể gửi tin nhắn."
+                });
+            }
         }
 
     }

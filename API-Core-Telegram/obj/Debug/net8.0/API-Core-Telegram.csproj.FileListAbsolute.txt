@@ -37,3 +37,4 @@ E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\API.dll
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\API.pdb
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\HttpClientFactory.dll
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.sourcelink.json

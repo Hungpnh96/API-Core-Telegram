@@ -10,3 +10,4 @@ E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.dll
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\refint\API.dll
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.pdb
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\ref\API.dll
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.sourcelink.json
