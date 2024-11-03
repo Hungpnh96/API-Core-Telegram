@@ -33,6 +33,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowAllOrigins"); // Áp dụng chính sách CORS
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
