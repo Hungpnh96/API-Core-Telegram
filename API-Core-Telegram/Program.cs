@@ -1,9 +1,21 @@
-using API;
+﻿using API;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Thêm dịch vụ CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+
 
 builder.Services.AddControllers()
     .AddApplicationPart(Assembly.Load(new AssemblyName("API")));
