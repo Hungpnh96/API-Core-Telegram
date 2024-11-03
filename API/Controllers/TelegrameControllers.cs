@@ -31,7 +31,7 @@ namespace API.Controllers
             var message = new
             {
                 chat_id = chatId,
-                text = $"Tên người gửi: {request.SenderName}\nGửi từ: {request.From}\nNội dung: {request.Content}"
+                text = $"Tên người gửi: {request.SenderName}\nBạn của: {request.From}\nNội dung: {request.Content}"
             };
 
             using var httpClient = new HttpClient();
