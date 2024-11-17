@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{3BE08D7D-8208-4547-83AD-C358A6CF3415}|API\\API.csproj|solutionrelative:api\\models\\sendmesstotelegram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AA4A6425-D021-4DE2-8CEC-D8BB27686CFD}|API-Core-Telegram\\API-Core-Telegram.csproj|e:\\hungpnh\\api-core-telegram\\api-core-telegram\\api-core-telegram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4A6425-D021-4DE2-8CEC-D8BB27686CFD}|API-Core-Telegram\\API-Core-Telegram.csproj|solutionrelative:api-core-telegram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4A6425-D021-4DE2-8CEC-D8BB27686CFD}|API-Core-Telegram\\API-Core-Telegram.csproj|e:\\hungpnh\\api-core-telegram\\api-core-telegram\\api-core-telegram\\api-core-telegram.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AA4A6425-D021-4DE2-8CEC-D8BB27686CFD}|API-Core-Telegram\\API-Core-Telegram.csproj|solutionrelative:api-core-telegram\\api-core-telegram.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3BE08D7D-8208-4547-83AD-C358A6CF3415}|API\\API.csproj|e:\\hungpnh\\api-core-telegram\\api-core-telegram\\api\\servicesregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BE08D7D-8208-4547-83AD-C358A6CF3415}|API\\API.csproj|solutionrelative:api\\servicesregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,8 +34,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Hungpnh\\API-Core-Telegram\\API-Core-Telegram\\API-Core-Telegram\\Program.cs",
+              "RelativeDocumentMoniker": "API-Core-Telegram\\Program.cs",
+              "ToolTip": "E:\\Hungpnh\\API-Core-Telegram\\API-Core-Telegram\\API-Core-Telegram\\Program.cs",
+              "RelativeToolTip": "API-Core-Telegram\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T05:51:51.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "API-Core-Telegram.csproj",
+              "DocumentMoniker": "E:\\Hungpnh\\API-Core-Telegram\\API-Core-Telegram\\API-Core-Telegram\\API-Core-Telegram.csproj",
+              "RelativeDocumentMoniker": "API-Core-Telegram\\API-Core-Telegram.csproj",
+              "ToolTip": "E:\\Hungpnh\\API-Core-Telegram\\API-Core-Telegram\\API-Core-Telegram\\API-Core-Telegram.csproj",
+              "RelativeToolTip": "API-Core-Telegram\\API-Core-Telegram.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-03T05:51:01.684Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -36,10 +68,9 @@
               "RelativeDocumentMoniker": "API\\Models\\SendMessToTelegram.cs",
               "ToolTip": "E:\\Hungpnh\\API-Core-Telegram\\API-Core-Telegram\\API\\Models\\SendMessToTelegram.cs",
               "RelativeToolTip": "API\\Models\\SendMessToTelegram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T05:22:57.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T05:22:57.922Z"
             },
             {
               "$type": "Document",
@@ -49,14 +80,14 @@
               "RelativeDocumentMoniker": "API\\Controllers\\TelegrameControllers.cs",
               "ToolTip": "E:\\Hungpnh\\API-Core-Telegram\\API-Core-Telegram\\API\\Controllers\\TelegrameControllers.cs",
               "RelativeToolTip": "API\\Controllers\\TelegrameControllers.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAYwDEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowCoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T05:06:49.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ServicesRegister.cs",
               "DocumentMoniker": "E:\\Hungpnh\\API-Core-Telegram\\API-Core-Telegram\\API\\ServicesRegister.cs",
               "RelativeDocumentMoniker": "API\\ServicesRegister.cs",
@@ -68,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Hungpnh\\API-Core-Telegram\\API-Core-Telegram\\API-Core-Telegram\\appsettings.json",
               "RelativeDocumentMoniker": "API-Core-Telegram\\appsettings.json",

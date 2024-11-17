@@ -19,7 +19,7 @@ namespace API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Hello World");
+            return Ok("Hello World - CICD");
         }
 
         [HttpPost("sendMessage")]

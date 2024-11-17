@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins", builder =>
     {
-        builder.AllowAnyOrigin()
+        builder.WithOrigins("https://your-github-username.github.io") // Thay đổi với URL của GitHub Pages của bạn
                .AllowAnyMethod()
                .AllowAnyHeader();
     });
@@ -33,7 +33,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowAllOrigins"); // Áp dụng chính sách CORS
+//app.UseCors("AllowAllOrigins"); // Áp dụng chính sách CORS
+app.UseCors("AllowSpecificOrigin"); // Áp dụng chính sách CORS
 
 app.UseHttpsRedirection();
 
