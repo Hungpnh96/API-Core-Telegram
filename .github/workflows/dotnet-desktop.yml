@@ -31,7 +31,7 @@ jobs:
           
           # Publish và chạy API
           # Nếu bạn sử dụng .NET, có thể là:
-          dotnet publish -c Release -o /home/hungpnh96/webapp/API-Core-Telegram/API-Core-Telegram/API-Core-Telegram/bin/Release/net8.0/publish/ &&
+          dotnet publish && # -c Release -o /home/hungpnh96/webapp/API-Core-Telegram/API-Core-Telegram/API-Core-Telegram/bin/Release/net8.0/publish/ &&
           # Nếu bạn sử dụng systemd, restart service API
           sudo systemctl restart api.service &&
           echo 'API deployment completed successfully'
