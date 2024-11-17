@@ -1,0 +1,38 @@
+
+name: Deploy API to Linux Server
+
+on:
+  push:
+    branches:
+      - main  # Triển khai khi có push vào nhánh main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set up SSH
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H 35.227.71.160 >> ~/.ssh/known_hosts
+
+    - name: Deploy API Code to Server
+      run: |
+        ssh hungpnh96@35.227.71.160 "
+          cd /home/hungpnh96/webapp/API-Core-Telegram/API-Core-Telegram &&  # Thư mục API
+          git reset --hard &&
+          git clean -fd &&
+          git pull origin main &&
+          
+          # Publish và chạy API
+          # Nếu bạn sử dụng .NET, có thể là:
+          dotnet publish -c Release -o /home/hungpnh96/webapp/API-Core-Telegram/API-Core-Telegram/API-Core-Telegram/bin/Release/net8.0/publish/ &&
+          # Nếu bạn sử dụng systemd, restart service API
+          systemctl restart api.service &&
+          echo 'API deployment completed successfully'
+        "
