@@ -33,7 +33,7 @@ namespace API.Service
             {
                 var message = new
                 {
-                    content = $"Tên người gửi: {request.SenderName}\nBạn của: {request.From}\nNội dung: {request.Content}"
+                    content = $"===================================\n\n\n\nTên người gửi: {request.SenderName}\nBạn của: {request.From}\nNội dung: {request.Content}\n===================================\n\n\n\n"
                 };
 
                 var json = JsonSerializer.Serialize(message);
