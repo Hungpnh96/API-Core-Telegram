@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API-Core-Telegram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+178129298d46c9cfa2cdcda4467ffcaaaa2b301e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6b15544bd468c0f3854c3c757519d19aa7b5dd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("API-Core-Telegram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API-Core-Telegram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
