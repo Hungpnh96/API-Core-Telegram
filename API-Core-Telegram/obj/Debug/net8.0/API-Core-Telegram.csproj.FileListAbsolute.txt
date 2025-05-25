@@ -5,10 +5,17 @@ E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\API-Core-Telegram.runtimeconfig.json
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\API-Core-Telegram.dll
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\API-Core-Telegram.pdb
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\HttpClientFactory.dll
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\API.dll
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\API.pdb
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.csproj.AssemblyReference.cache
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.GeneratedMSBuildEditorConfig.editorconfig
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.AssemblyInfoInputs.cache
@@ -16,6 +23,7 @@ E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.csproj.CoreCompileInputs.cache
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.MvcApplicationPartsAssemblyInfo.cs
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.MvcApplicationPartsAssemblyInfo.cache
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.sourcelink.json
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\staticwebassets.build.json
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\staticwebassets.development.json
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\staticwebassets\msbuild.API-Core-Telegram.Microsoft.AspNetCore.StaticWebAssets.props
@@ -30,11 +38,3 @@ E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.pdb
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.genruntimeconfig.cache
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\ref\API-Core-Telegram.dll
-E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
-E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\Newtonsoft.Json.dll
-E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\API.dll
-E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\API.pdb
-E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\bin\Debug\net8.0\HttpClientFactory.dll
-E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API-Core-Telegram\obj\Debug\net8.0\API-Core-Telegram.sourcelink.json

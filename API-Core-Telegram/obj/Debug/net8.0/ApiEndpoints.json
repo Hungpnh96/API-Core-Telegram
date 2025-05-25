@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "API.Controllers.DiscordConllers",
+    "Method": "Get",
+    "RelativePath": "api/v1/discord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.DiscordConllers",
+    "Method": "SendMessage",
+    "RelativePath": "api/v1/discord/sendMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API.Models.SendMessToTelegram\u002BSendMessRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.TelegrameControllers",
     "Method": "Get",
     "RelativePath": "api/v1/telegram",

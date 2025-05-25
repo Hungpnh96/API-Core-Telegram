@@ -6,8 +6,8 @@ E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.Generate
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.AssemblyInfo.cs
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
+E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.sourcelink.json
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.dll
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\refint\API.dll
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.pdb
 E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\ref\API.dll
-E:\Hungpnh\API-Core-Telegram\API-Core-Telegram\API\obj\Debug\net8.0\API.sourcelink.json
