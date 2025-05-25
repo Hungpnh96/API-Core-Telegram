@@ -19,11 +19,11 @@ jobs:
         mkdir -p ~/.ssh
         echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan -H 35.227.71.160 >> ~/.ssh/known_hosts
+        ssh-keyscan -H hungpnh.myftp.org >> ~/.ssh/known_hosts
 
     - name: Deploy API Code to Server
       run: |
-        ssh hungpnh96@35.227.71.160 "
+        ssh hungpnh96@hungpnh.myftp.org "
           cd /home/hungpnh96/webapp/API-Core-Telegram/API-Core-Telegram &&  # Thư mục API
           git reset --hard &&
           git clean -fd &&
@@ -31,8 +31,8 @@ jobs:
           
           # Publish và chạy API
           # Nếu bạn sử dụng .NET, có thể là:
-          dotnet publish -c Release -o /home/hungpnh96/webapp/API-Core-Telegram/API-Core-Telegram/API-Core-Telegram/bin/Release/net8.0/publish/ &&
+          dotnet publish && # -c Release -o /home/hungpnh96/webapp/API-Core-Telegram/API-Core-Telegram/API-Core-Telegram/bin/Release/net8.0/publish/ &&
           # Nếu bạn sử dụng systemd, restart service API
-          sudo systemctl restart api.service &&
+          sudo systemctl restart api &&
           echo 'API deployment completed successfully'
         "
